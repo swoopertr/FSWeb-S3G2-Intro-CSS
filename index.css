@@ -94,6 +94,10 @@ nav a:last-child{
     left: 26%;
 }
 
+.chelsea:hover{
+    background-color: hotpink;
+}
+
 .top_banner_img{
     display: inline-block;
     position: relative;
@@ -102,7 +106,8 @@ nav a:last-child{
 
 .top_banner_img img{
     border-radius: 50%;
-    height: 100%;
+    max-height: 200px;
+    max-width: 300px;
     width: 100%;
 }
 
@@ -151,3 +156,6 @@ nav a:last-child{
     overflow: hidden;
 }
 
+.footer_img_div img{
+    width: 2000px;
+}
